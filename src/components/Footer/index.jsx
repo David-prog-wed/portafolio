@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className={Styles.footer}>
       &copy; {new Date().getFullYear()} David Celis
-      <small className={Styles.byline}>🚀 Built by Astro</small>
+      {/* <small className={Styles.byline}></small> */}
     </footer>
   );
 }
